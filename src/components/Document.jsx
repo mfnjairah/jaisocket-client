@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import io from "socket.io-client";
-const domain = "https://6d9f-152-32-107-37.ngrok-free.app";
+const domain = "https://jaisocket-server.onrender.com";
 const socket = io.connect(domain);
 
 const Document = () => {

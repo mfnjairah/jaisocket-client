@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import io from "socket.io-client";
-const domain = "";
+const domain = "https://jaisocket-server.onrender.com";
 const socket = io.connect(domain);
 
 const Chat = () => {
